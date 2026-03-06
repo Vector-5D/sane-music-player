@@ -1,0 +1,7 @@
+compile_commands.json
+test_song_1.mp3
+test_song_2.mp3
+test_song_3.mp3
+bin/
+build/
+.cache/
