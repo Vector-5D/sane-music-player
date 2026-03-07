@@ -93,7 +93,7 @@ void App::render() {
     BeginDrawing();
     ClearBackground(BLACK);
 
-    this->fontRenderer->setSize(22);
+    this->fontRenderer->loadSize(22);
     this->fontRenderer->drawText("Genres", 20, 15, LIGHTGRAY);
 
     Track* track = this->playlist.getCurrentTrack();
